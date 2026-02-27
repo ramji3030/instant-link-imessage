@@ -38,5 +38,5 @@ jobs:
       
   
     
-    - name: Build Docker image
-      run: docker build -t instant-link:${{ github.sha }} -f backend/Dockerfile .
+    # - name: Build Docker image
+      # run: docker build -t instant-link:${{ github.sha }} -f backend/Dockerfile .
