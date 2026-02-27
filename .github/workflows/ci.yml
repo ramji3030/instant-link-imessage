@@ -36,8 +36,7 @@ jobs:
     
    
       
-      env:
-    #     DATABASE_URL: postgresql://postgres:postgres@localhost:5432/instant_link_test
+  
     
     - name: Build Docker image
       run: docker build -t instant-link:${{ github.sha }} -f backend/Dockerfile .
