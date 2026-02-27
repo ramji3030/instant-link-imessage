@@ -1,7 +1,7 @@
 # instant-link-imessage
 # instant-link-imessage 🚀
 
-**Advanced iMessage Social Network** - Instant connections, AI matching engine, real-time messaging, and ephemeral rooms. iOS app + backend + iMessage extension inspired by Series.so.
+**Advanced iMessage Social Network** - Instant connections, AI matching engine, real-time messaging, and ephemeral rooms. iOS app + backend + iMessage extension.
 
 ## ✨ Key Features
 
@@ -257,7 +257,6 @@ MIT License - see LICENSE file
 
 ## 🙏 Acknowledgments
 
-- Inspired by Series.so's AI-driven networking
 - Built with Express, React Native, PostgreSQL
 - Powered by Socket.io for real-time features
 
