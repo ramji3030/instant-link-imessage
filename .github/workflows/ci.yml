@@ -31,13 +31,11 @@ jobs:
         node-version: '18'
     
     - name: Install dependencies
-      run: cd backend && npm install
+      run: cd backend && npm install        
+      
     
-    # - name: Run linter
-      # run: cd backend && npm run lint
-    
-    - name: Run tests
-      # run: cd backend && npm test
+   
+      
       env:
     #     DATABASE_URL: postgresql://postgres:postgres@localhost:5432/instant_link_test
     
