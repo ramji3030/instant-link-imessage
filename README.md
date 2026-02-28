@@ -242,6 +242,30 @@ class MessagesViewController: MSMessagesAppViewController {
 - Sentry for error tracking
 - DataDog for infrastructure monitoring
 - Custom dashboards for user metrics
+- 
+## Setup & Installation
+
+### Prerequisites
+
+- iOS 15.0 or later
+- Xcode 13.0+
+- Swift 5.9+
+- Swift Package Manager (SPM)
+
+- ### iOS App Setup
+
+1. **Using Swift Package Manager**
+   - Add to Xcode: File → Add Packages
+   - Enter: https://github.com/ramji3030/instant-link-imessage.git
+   - Select version and targets
+
+2. **GitHub Secrets Configuration**
+   - APP_STORE_CONNECT_API_KEY_ID
+   - APP_STORE_CONNECT_API_ISSUER_ID
+
+3. **Staging Environment**
+   - Server: https://staging-api.example.com
+   - Debug Mode: Enabled
 
 ## 🤝 Contributing
 
